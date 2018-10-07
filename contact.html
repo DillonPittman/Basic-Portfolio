@@ -7,29 +7,36 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact</title>
 </head>
-<body>
-    <header>
-        <div class="name">Dillon Pittman</div>
-        <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <div class="title">Dillon Pittman</div>
+<div class="body">
+    <div class="topnav">
+        <div class="container">
+            <div class="name">Dillon Pittman</div>
+            <div class="nav-right">
+                <a href="#">About</a>
+                <a href="#">Portfolio</a>
+                <a href="#" id="contact">Contact</a>
+            </div>
+        </div> 
+    </div>
+    <div class="container">
         <div class="content">
-            <div class="data_title">Name</div>
-            <input type="text" name="name" placeholder="John Smith">
-            <div class="data_title">Email</div>
-            <input type="email" name="email" placeholder="example@gmail.com">
-            <div class="data_title">Message</div>
-            <input type="text" name="message">
-            <div class="submit_button">Submit</div>
+            <div class="margins">
+                <h2 class="about-me">Contact</h2>
+                <hr>
+                <div class="lorem">
+                    <div class="data_title forms">Name</div>
+                    <input type="text" class="small-entry forms" name="name" placeholder="John Smith">
+                    <div class="data_title forms">Email</div>
+                    <input type="email" class="small-entry forms" name="email" placeholder="example@gmail.com">
+                    <div class="data_title forms">Message</div>
+                    <input type="text" class="large-entry forms" name="message">
+                    <button class="submit_button forms">Submit</button>
+                </div>
+            </div>
         </div>
-    </main>
-</body>
-<footer>
-    Copyright ©
+    </div>
+</div>
+<footer class="footer">
+    <div class="footer-text">Copyright ©</div>
 </footer>
-</html>
+</html>        
