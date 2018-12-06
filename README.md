@@ -1,2 +1,3 @@
 # Basic-Portfolio
-First homework due from week 1-2.
+
+https://dillonpittman.github.io/Basic-Portfolio/
